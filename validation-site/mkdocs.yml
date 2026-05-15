@@ -1,0 +1,51 @@
+site_name: Productive K3S Docs Theme Smoke Test
+site_description: Smoke validation site for Productive K3S Docs Theme.
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  custom_dir: ../material-overrides
+  language: en
+  favicon: assets/images/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.footer
+  palette:
+    - scheme: default
+      primary: white
+      accent: blue
+  font: false
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra:
+  pk3s:
+    footer_slogan_en: "Smoke test for the shared Productive K3S documentation theme."
+    footer_slogan_es: "Smoke test para el tema compartido de documentacion de Productive K3S."
+    contact_label_en: "Contact"
+    contact_label_es: "Contacto"
+    newsletter_label_en: "Newsletter"
+    newsletter_label_es: "Newsletter"
+    newsletter_placeholder_en: "E-mail"
+    newsletter_placeholder_es: "E-mail"
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jemacchi/productive-k3s-docs-theme
+
+nav:
+  - Home: index.md
