@@ -45,7 +45,7 @@ extra:
     newsletter_placeholder_es: "E-mail"
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/jemacchi/productive-k3s-docs-theme
+      link: https://github.com/productive-k3s/productive-k3s-docs-theme
 
 nav:
   - Home: index.md
