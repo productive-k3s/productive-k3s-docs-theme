@@ -43,6 +43,17 @@ extra:
     newsletter_label_es: "Newsletter"
     newsletter_placeholder_en: "E-mail"
     newsletter_placeholder_es: "E-mail"
+    newsletter_api_base_url: "https://newsletter.productive-k3s.io"
+    newsletter_success_en: "Thanks for subscribing."
+    newsletter_success_es: "Gracias por suscribirte."
+    newsletter_duplicate_en: "You are already subscribed."
+    newsletter_duplicate_es: "Ya estabas suscripto."
+    newsletter_invalid_en: "Enter a valid e-mail address."
+    newsletter_invalid_es: "Ingresa un e-mail valido."
+    newsletter_error_en: "Could not submit right now. Please try again."
+    newsletter_error_es: "No se pudo enviar ahora. Intenta nuevamente."
+    argentina_credit_en: "Made in Argentina"
+    argentina_credit_es: "Hecho en Argentina"
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/productive-k3s/productive-k3s-docs-theme
