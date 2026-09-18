@@ -86,6 +86,9 @@ Footer product copy is configured through `extra.pk3s`:
 | `newsletter_invalid_es` | optional | `Ingresa un e-mail valido.` |
 | `newsletter_error_en` | optional | `Could not submit right now. Please try again.` |
 | `newsletter_error_es` | optional | `No se pudo enviar ahora. Intenta nuevamente.` |
+| `newsletter_challenge_en` | optional | `Complete the verification and try again.` |
+| `newsletter_challenge_es` | optional | `Completa la verificacion e intenta nuevamente.` |
+| `newsletter_turnstile_site_key` | optional | empty; renders Cloudflare Turnstile when present |
 | `argentina_credit_en` | optional | `Made in Argentina` |
 | `argentina_credit_es` | optional | `Hecho en Argentina` |
 
@@ -114,6 +117,7 @@ extra:
     footer_slogan_en: "Example Productive K3S documentation."
     footer_slogan_es: "Documentacion de ejemplo de Productive K3S."
     newsletter_api_base_url: "https://newsletter.productive-k3s.io"
+    newsletter_turnstile_site_key: "<turnstile-site-key>"
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/productive-k3s/example

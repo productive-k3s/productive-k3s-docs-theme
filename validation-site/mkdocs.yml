@@ -52,6 +52,7 @@ extra:
     newsletter_invalid_es: "Ingresa un e-mail valido."
     newsletter_error_en: "Could not submit right now. Please try again."
     newsletter_error_es: "No se pudo enviar ahora. Intenta nuevamente."
+    newsletter_turnstile_site_key: !ENV [NEWSLETTER_TURNSTILE_SITE_KEY, ""]
     argentina_credit_en: "Made in Argentina"
     argentina_credit_es: "Hecho en Argentina"
   social:
